@@ -49,7 +49,7 @@ args=parser.parse_args()
 remote_host=args.remote_host
 if(remote_host):
   print("Sending motion tracking pictures to remote host:",remote_host)
-  remote_dir="firearasi@"+remote_host+":/home/firearasi/Pictures/cv"
+  remote_dir="firearasi@"+remote_host+":/home/firearasi/Pictures/Pi"
 
 debug = True       # Set to False for no data display
 window_on = args.gui   # Set to True displays opencv windows (GUI desktop reqd)
