@@ -7,7 +7,6 @@ PASSWORD="a1siteru"
 
 
 
-
 subject="Sent from Python"
 
 def sendmail(destination,subject,content,img=None):
